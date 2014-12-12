@@ -1,6 +1,5 @@
 " Packages:
 " Nerdtree
-" go-vim
 " supertab
 " syntastic
 " vim-airline
@@ -51,6 +50,7 @@ set directory=~/.vim/swap// " set a specific dir for swap files to keep them out
 
 " Airline
 let g:airline_powerline_fonts = 1
+let g:airline_theme='jellybeans'
 set laststatus=2 " always show statusline
 set encoding=utf-8
 let g:airline#extensions#tabline#enabled = 1
